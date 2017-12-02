@@ -5,7 +5,7 @@ function setup() {
   var text = createDiv('GAD405 - Colour Coordinates')
   text.position(50, 50);
 
-  var canvas = createCanvas(400, 400);
+  var canvas = createCanvas(594, 841);
   stroke(0);
   canvas.parent("myContainer");
   //canvas.position(300, 50);
