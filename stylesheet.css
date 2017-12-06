@@ -24,6 +24,10 @@ h2 {
   padding: 5px;
 }
 
+#lastHeading{
+  font-family: monospace;
+}
+
 header{
   background-color: #2b2c2d;
   width: 100%;
