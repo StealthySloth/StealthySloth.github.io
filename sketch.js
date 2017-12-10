@@ -48,7 +48,7 @@ function draw() {
   as a different colour to the lines so that they will also almost always
   be changing into different colours when the lines hits the canvas*/
   //fill(0)
-  rect(0, 0, 594, 891); /*The rectangle used as a background for colour
+  rect(-1, -1, 595, 891); /*The rectangle used as a background for colour
   changing purposes*/
 
   x += speedX;
@@ -185,7 +185,8 @@ function draw() {
   the other set of lines thanks to the different let names x2 and y2*/
   line(width, height, x2, y2);
 
-  stroke(r3,g3,b3,255);
+  stroke(r3,g3,b3,255); /*ensures the thrid set of lines are a different colour
+  to both the first and second set most of the time*/
 
   for (let i=0; i<25; i++){
     line(i*(594/25), 0, x3, y3);
@@ -195,8 +196,8 @@ function draw() {
   }
   line(width, height, x3, y3);
 
-  fill(0, 170);
+  fill(0, 140);
   stroke(r + r2 + r3 / 100,g + g2 + g3 / 100,b + b2 + b3 / 100,255);
   strokeWeight(5);
-  triangle(100,560,280,210,460,560);
+  triangle(110,560,290,210,470,560);
 }

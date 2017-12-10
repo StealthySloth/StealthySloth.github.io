@@ -17,6 +17,11 @@ h2 {
   padding: 25px;
 }
 
+div {
+  text-align: center;
+  padding-top: 25px;
+}
+
 .newHeadings{
   text-decoration: underline;
   font-family: sans-serif;
