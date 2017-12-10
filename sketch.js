@@ -194,4 +194,9 @@ function draw() {
     line(i*(594/25), height, x3, y3);
   }
   line(width, height, x3, y3);
+
+  fill(0, 170);
+  stroke(r + r2 + r3 / 100,g + g2 + g3 / 100,b + b2 + b3 / 100,255);
+  strokeWeight(5);
+  triangle(100,560,280,210,460,560);
 }
